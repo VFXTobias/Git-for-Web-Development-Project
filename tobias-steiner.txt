@@ -84,13 +84,42 @@ Finished Project Link: https://codepen.io/vfxtobias/full/RwabzZK
 	Use the text-transform attribute with 'uppercase', 'lowercase', or 'capitalize'.
 
 28. How do I add a 1px border around my div that is dotted and black?
-	
+	div{
+		border: 1px dotted black;
+	}
+
 29. How do I select everything on the page? 
+	Using the 'body' tag.
+
 30. How do I write a comment in CSS?
+	Using <!-- and --> or you can you '///' at the beginning of a single line.
+
 31. How do I find out what file I am in, when I am using the command line? 
+	Using the 'pwd' command.
+
 32. Using the command line - how do I see a list of files/folders in my current folder?
+	Using the 'ls' command.
+
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	Using 'rm <fielname>'.  There are no safety nets in place when using the terminal for removing files or directories.  It's a brute force method.
+
 34. Why should I use version control? 
+	Two of the biggest reasons are as follows. Tracking changes and rolling back to prior versions in case of fatal errors.
+
 35. How often should I commit to github?
-36. What is the command we would use to push our repo up to github? 
+	This is a subjective topic.  During class it was suggested every 20 minutes or so.  
+	My personal thought on this at the moment given my limited knowledge is that changes should be committed
+	when they have passed functionality testing.  So anytime a new piece of code is functioning and passes local testing.
+
+36. What is the command we would use to push our repo up to github?
+	'git push -u origin <branch>' the first time.  Then 'git push <branch>' after that.
+
 37. Walk me through Lambda's git flow. 
+	* Fork a repo.
+	* Add our TL via manage access console.
+	* Clone the repo to your local project folder.
+	* CD into the correct repor directory.
+	* Create your own branch via the 'git checkout -b' command.
+	* Modify files as required then utilize the git add, commit, and push commands.
+	* Once the branch is pushed, navigate to our branch on the GitHub project, eg. tobias-steiner. 
+	Create a pull request using the correct repository and add our TL to the reviewers list.
