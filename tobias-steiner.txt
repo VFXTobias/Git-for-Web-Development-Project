@@ -1,0 +1,96 @@
+Finished Project Link: https://codepen.io/vfxtobias/full/RwabzZK
+
+
+
+1. What is Semantic HTML? 
+	The idea that HTML tags should have meaning for their specific purpose, eg <section> or <article> has more meaning than <div>.
+
+2. What is HTML used for? 
+	HTML is simply markup that gets content onto a web page, eg. text, images, links, etc.
+
+3. What is an attribute and where do we put it? 
+	An attribute is a value that helps us configure an HTML element.  It goes after the element targeted.  Eg, an "alt" attribute in an "img" element.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+	This is used to indicate an important heading.  H1 should be considered top level, like the name of a chapter in a book. Use as many times as appropriate to designate important separation in information.
+
+5. Name two tags that have required attributes
+	<img> requires a "src" attribute.  <link> requires an "href" attribute. While the <a> tag can use 'href' it is technically not required.
+
+6. What do we put in the head of our HTML document? 
+	This goes at the top of the file just after the document type specification.
+
+7. What is an id? 
+	An ID is selector used for styling a specific content item on an HTML page.
+
+8. What elements can I add an id to? 
+	An ID can be added to any HTML element.
+
+9. How many times can I use the same id on a page? 
+	It is suggested that IDs only every be used once on a page.
+
+10. What is a class? 
+	A CLASS is a selector used for styling content items on an HTML page.
+
+11. What elements can I add a class to? 
+	A CLASS can be added to any HTML element.
+
+12. How many times can I use the same class on a page? 
+	As many times as appropriate for the content being selected.
+
+13. How do I get my link to open in a new tab?
+	Using the attribute target="_blank" attribute after an href.
+
+14. What is the alt attribute in the image tag used for? 
+	This allows screen readers to read a description of the image for those with visual impairment.
+
+15. How do I reference an id?
+	Using the # symbol in your CSS file.
+
+16. What is the difference between a section and a div
+	A section defines a grouping of content that is related whereas a div is just an indicator of a literal box containing content.  The former has semantic meaning for readers and search engines whereas the latter has no meaning other than structural.
+
+17. What is CSS used for? 
+	CSS stand for cascading style sheet and thus is used for styling content on an HTML page.
+
+18. How to we select an element? Example - every h2 on the page
+	For semantic tags such as h2, we simply type the tag.  Eg. h2 {color:red;}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	Class can be a recurring styling element whereas ID is meant to be a single specific selector.  eg, Class h2 styling would style any h2's on a page.  An ID of "Urgent" might apply to a singular item on a page that needs specific attention.  It also supercedes class in importance.
+
+20. How do we select classes in CSS?
+	With a period before the identifier.
+
+21. How do we select a p element with a single class of “human””?
+	p.human.
+
+22. What is a parent child selector? When would this be useful? 
+	This is when you have an item with multiple classes.  It is helpful in targeting a specific class on that item.
+
+23. How do you select all links within a div with the class of sidebar?
+	div.sidebar a.  Caveat is the assumption that the <a> tag has been used for hrefs.  It is also possible to use the <link> tag.  In that case it may be div.sidebar link.
+
+24. What is a pseudo selector?
+	This type of selector is used for selecting elements based on their state.  Eg, a:visited might apply style change to links that have already been clicked.
+
+25. What do we use the change the spacing between lines?
+	Use the line-height attribute.
+
+26. What do we use to change the spacing between letters?
+	Use the letter-spacing attribute.
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	Use the text-transform attribute with 'uppercase', 'lowercase', or 'capitalize'.
+
+28. How do I add a 1px border around my div that is dotted and black?
+	
+29. How do I select everything on the page? 
+30. How do I write a comment in CSS?
+31. How do I find out what file I am in, when I am using the command line? 
+32. Using the command line - how do I see a list of files/folders in my current folder?
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+34. Why should I use version control? 
+35. How often should I commit to github?
+36. What is the command we would use to push our repo up to github? 
+37. Walk me through Lambda's git flow. 
